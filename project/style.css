@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title {
+    font-family: 'Spider-Man';
+}
+.text{
+    font-family: 'Spider-Man';
+    font-size: 80%;
+    width: 100%;
+}
+body {
+    font-family: 'Spider-Man';
+    line-height: 1.6;
+
+    background-image: url('../Downloads/IMG_8614.JPG');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: center;
+
+    
+}
+.photo {
+    width: 30%; 
+
+    object-fit: cover; 
+    float: left;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+
+}
+.character{
+    font-family: 'AttackOnTitan';
+    font-size: 170%;
+}
+
+header {
+    
+
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1rem;
+}
+
+nav {
+
+    padding: 1rem;
+}
+
+nav ul {
+    font-family: 'AttackOnTitan';
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 200%;
+    
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+.container {
+    
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+main {
+    flex: 3;
+    color: rgb(255, 255, 255);
+
+    padding: 1rem;
+    margin-right: 1rem;
+}
+
+aside {
+    flex: 1;
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+}
+
+footer {
+
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
